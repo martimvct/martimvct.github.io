@@ -1,0 +1,49 @@
+                                    Martim Vicente
+              martim.vicente@tecnico.ulisboa.pt | linkedin.com/in/martim-vicente | github.com/m-vct
+
+Education
+ Instituto Superior Técnico, ULisboa                                                              Lisbon, Portugal
+ Bachelor of Science in Computer Science, AVG: 17/20                                           Sep. 2024 – Jun 2027
+
+Experience
+ Embedded Software Engineer, Rocket Experiment Division                                        Sep. 2025 – Present
+ Instituto Superior Técnico                                                                             Lisbon, PT
+    • Engineered C-based control software for a hybrid rocket filling station, replacing hazardous manual procedures
+
+       with a 100m+ remote-controlled system, implementing a robust state machine, hardware watchdogs on a
+       STM32, and SD-card data logging.
+    • Developing a secure internal wiki using Docusaurus, Cloudflare Pages and Cloudflare Zero Trust, automating
+
+       documentation via Doxygen2md to centralize mission-critical schematics, mitigate legacy errors and preserve
+       legacy knowledge.
+ Software Engineer, Técnico Investment Club                                                    Sep 2025 – Present
+ Instituto Superior Técnico                                                                               Lisbon, PT
+    • Architected a high-frequency trading engine in C++ optimized for resource-constrained hardware, with the goal
+
+       of achieving sub-50ms tick-to-trade latency through custom lock-free data structures and a decoupled ”Trading
+       Pod” architecture that ensures strategy-level isolation.
+    • Developing the Trading Pod part of the trading engine, implementing an SPMC lock-free ring buffer to
+
+       orchestrate market data consumption, strategy execution, and risk management and order execution via
+       fire-and-forget.
+    • Developing a monitoring sidecar in Go to ingest real-time telemetry (tick-to-trade, lock-free buffer saturation),
+
+       automating daily health and portfolio reporting through Discord webhook integrations.
+    • Optimized data visualization by migrating JavaScript calculations from the client to the server and
+
+       implementing LTTB downsampling, reducing webpage load times by 75% while maintaining fidelity for 10k+
+       data points.
+
+Projects
+ Library Management System | Java, OOP, Design Patterns                                     School Project, OOP
+    • Designed a system handling entity relationships (Works, Users, Loans) with a focus on extensibility
+
+      (Open-Closed Principle)
+    • Implemented business logic for a dynamic user reputation system that automatically adjusts borrowing
+
+      privileges and calculates fines.
+
+Skills
+ Languages: C, C++, Go, Python, Java, JavaScript, SQL
+ Tools: Git, Docker, Embedded Systems (STM32), Linux
+ Linguistic Proficiencies: Portuguese (Native), English (Professional)

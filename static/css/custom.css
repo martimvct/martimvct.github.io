@@ -1,0 +1,59 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-left: 9px solid #001f8f;
+  padding-left: 9px;
+}
+
+pre {
+  background: #f7f7f7;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.menu {
+  text-align: center;
+}
+
+/* Fully reset menu list styling */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.3rem;
+  color: #000;
+}
+
+/* Brackets */
+.menu li::before {
+  content: "[ ";
+  color: #000;
+}
+
+.menu li::after {
+  content: " ]";
+  color: #000;
+}
+
+/* Remove XMin grey menu background */
+.menu a {
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+
+
+/* If it's the header's bottom border */
+header {
+    border-bottom: 2px solid #000;
+}

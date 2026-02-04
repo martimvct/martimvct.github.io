@@ -1,0 +1,5 @@
+#!/bin/bash
+if git diff --cached --name-only | grep -q "cv.pdf"; then
+    ./scripts/pdf_to_txt.sh && git add cv.txt
+    echo "[DONE]: cv.txt synced"
+fi

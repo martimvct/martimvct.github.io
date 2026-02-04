@@ -1,0 +1,75 @@
+# Site Settings
+baseURL = "https://martimvct.github.io/"
+languageCode = "en-us"
+title = "Martim V."
+theme = "xmin"
+enableRobotsTXT = true
+
+# Author Info
+[author]
+  name = "Martim V."
+  email = "me@mcv.pt"
+  github = "martimvct"
+  linkedin = "martim-vicente"
+
+# Site description
+description = "My little corner of the internet."
+
+# Menu Items
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 5
+
+
+# Social Links
+[[params.social]]
+icon = "github"
+name = "martimvct"
+url = "https://github.com/martimvct"
+
+[[params.social]]
+icon = "linkedin"
+name = "martim-vicente"
+url = "https://linkedin.com/in/martim-vicente"
+
+[[params.social]]
+icon = "email"
+name = "me@mcv.pt"
+url = "mailto:me@mcv.pt"
+
+[[params.social]]
+icon = "discord"
+name = "redstar13"
+url = ""  # No link, just display username
+
+# Theme-specific parameters
+[params]
+    logo = "images/logo.jpg"
+    showTitle = true
+    showDate = true           # show post dates
+    showReadingTime = true    # show reading time for posts
+    showCategories = true     # display categories
+    showTags = true           # display tags
+    footerContent = "2026 Martim V."

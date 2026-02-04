@@ -1,0 +1,23 @@
+<footer style="margin-top: 50px; font-family: monospace;">
+    <hr style="border: 0; border-top: 2px solid #000;" />
+    
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        [<a href="https://github.com/martimvct" target="_blank">GitHub</a>]
+        [<a href="https://linkedin.com/in/martim-vicente" target="_blank">LinkedIn</a>]
+      </div>
+      
+      <div>
+        {{ if .Site.Params.footer }}
+          {{ replace .Site.Params.footer "{Year}" now.Year | markdownify }}
+        {{ else }}
+          &copy; {{ now.Year }} {{ .Site.Title }}
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "foot_custom.html" . }}
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{{ range .Site.Params.social }}
+<div>
+    <strong>&gt; {{ .icon | humanize }}:</strong> 
+    <a href="{{ .url }}">{{ .name }}</a>
+</div>
+{{ end }}
