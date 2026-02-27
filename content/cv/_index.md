@@ -3,4 +3,4 @@ title: "My CV"
 ---
 
 You can **download my CV** here:\
-[Download PDF version](/cv/cv.pdf)
+[Download PDF version](/cv/mv-cv.pdf)
